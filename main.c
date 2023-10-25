@@ -89,8 +89,10 @@ int main(int argc, char* argv[]) {
 }
 
 void print_matrix(int m[N][N]) {
-    for (int i = 0; i < N; i++) {
-        for (int j = 0; j < N; j++) {
+    int i;
+    int j;
+    for (i = 0; i < N; i++) {
+        for (j = 0; j < N; j++) {
             printf("%d\t", m[i][j]);
         }
         printf("\n");
