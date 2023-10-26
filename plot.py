@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 Ts = 1000  # replace x1 with the actual value
 
 # Parallel times for N=1000
-Tp_values = [x1, x2, x3, x4]  # replace x1, x2, x3, x4 with actual values
+Tp_values = [16, 44, 128, 380]  # replace x1, x2, x3, x4 with actual values
 
 # Number of processors
 p_values = [1, 2, 4, 8]

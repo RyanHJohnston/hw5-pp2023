@@ -1,6 +1,6 @@
+#include <mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <mpi.h>
 
 #define N 4  // Adjust as needed
 #define VAL 2  // Constant value for initializing matrices
